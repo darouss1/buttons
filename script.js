@@ -8,7 +8,7 @@ const emotesList = [
   { id: "castled", src: "./icons/castle.svg" },
 ];
 const emoteSize = 32;
-const showToolTip = false; // To show or not to show the tool tip
+const showToolTip = true; // To show or not to show the tool tip
 const limitReactions = false; // To limit the reactions per duration or not
 const reactionsLimitDuration = 1; // Duration in seconds
 
