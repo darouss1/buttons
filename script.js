@@ -10,7 +10,7 @@ const emotesList = [
 const emoteSize = 32;
 const showToolTip = false; // To show or not to show the tool tip
 const limitReactions = true; // To limit the reactions per duration or not
-const reactionsLimitDuration = 10; // Duration in seconds
+const reactionsLimitDuration = 1; // Duration in seconds
 
 // Connect to Socket Server
 const ROOM = "room_001";
