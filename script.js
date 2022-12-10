@@ -46,7 +46,7 @@ emoteButtons.forEach((e, i) => {
     if (allowClick) {
       socket.emit("user-reacted", { emote: emotesList[i].id, room: ROOM });
       if (limitReactions) {
-        allowClick = false;
+        allowClick = true;
         setTimeout(() => {
           allowClick = true;
         }, reactionsLimitDuration * 1000);
