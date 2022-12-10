@@ -14,7 +14,7 @@ const reactionsLimitDuration = 1; // Duration in seconds
 
 // Connect to Socket Server
 const ROOM = "room_001";
-const ENDPOINT = "https://flying-emotes-webserver.herokuapp.com/";
+const ENDPOINT = "https://flying-emotes-webserver-pus.herokuapp.com/";
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
