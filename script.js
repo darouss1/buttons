@@ -49,7 +49,7 @@ emoteButtons.forEach((e, i) => {
         allowClick = false;
         setTimeout(() => {
           allowClick = true;
-        }, reactionsLimitDuration * 500);
+        }, reactionsLimitDuration * 1000);
       }
     }
   });
