@@ -35,7 +35,7 @@ for (let emote of emotesList) {
   newEmote.classList.add("emote");
   if (showToolTip)
     newEmote.innerHTML += `<div class="toolTip">${emote.id}</div>`;
-  newEmote.innerHTML += `<img src="${emote.src}" height="32px" width="32px" />`;
+  newEmote.innerHTML += `<img src="${emote.src}" height="42px" width="42px" />`;
   emotesButtonsContainer.appendChild(newEmote);
 }
 
