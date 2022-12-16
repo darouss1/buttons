@@ -7,7 +7,7 @@ const emotesList = [
   { id: "question", src: "./icons/question.svg" },
   { id: "castled", src: "./icons/castle.svg" },
 ];
-const emoteSize = 42;
+const emoteSize = 32;
 const showToolTip = false; // To show or not to show the tool tip
 const limitReactions = true; // To limit the reactions per duration or not
 const reactionsLimitDuration = 1; // Duration in seconds
@@ -35,7 +35,7 @@ for (let emote of emotesList) {
   newEmote.classList.add("emote");
   if (showToolTip)
     newEmote.innerHTML += `<div class="toolTip">${emote.id}</div>`;
-  newEmote.innerHTML += `<img src="${emote.src}" height="42px" width="42px" />`;
+  newEmote.innerHTML += `<img src="${emote.src}" height="32px" width="32px" />`;
   emotesButtonsContainer.appendChild(newEmote);
 }
 
